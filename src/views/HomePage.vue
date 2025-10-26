@@ -1,8 +1,8 @@
 <script setup>
-import { onMounted, ref } from 'vue'
-import BaseTitle from '@/components/BaseTitle.vue'
-import useAPI from '@/composables/useAPI'
-import MainScore from '@/components/MainScore.vue'
+import { onMounted, ref } from 'vue';
+import BaseTitle from '@/components/BaseTitle.vue';
+import useAPI from '@/composables/useAPI';
+import MainScore from '@/components/MainScore.vue';
 
 const { categories, getCategories } = useAPI()
 
